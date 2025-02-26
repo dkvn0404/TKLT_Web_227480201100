@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng ký dự thi</title>
+    <style>
+        .part1{
+            display: flex;
+            justify-content: space-between;
+        }
+        .part1 p{
+            margin: 0 0 0 0;
+        }
+        h1{
+                font-family: Verdana, sans-serif;                
+                font-weight: bold;
+                color: red;
+                text-align: center;
+                font-size: 20px;
+        }
+        .top {
+            text-align: center;
+            margin: 5px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="part1">
+        <div class="left">
+            <p class="top"><b>TRƯỜNG ĐẠI HỌC BẠC LIÊU</b></p>
+            <p class="top">KHOA KỸ THUẬT VÀ CÔNG NGHỆ</p>
+        </div>
+        <div class="right">
+            <p class="top"><b>CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM</b></p>
+            <p class="top">Độc lập - Tự do - Hạnh phúc</p>
+        </div>
+    </div>
+    <div class="part2">
+        <h1>ĐĂNG KÝ XÉT TUYỂN</h1>
+    </div>
+    <div class="part3">
+        <form action="">
+            <p class="top">Họ tên: <input type="text"> </p>
+            <p class="top">Giới tính: <input type="radio" value="1" name="gioitinh" checked>Nam
+                <input type="radio" value="0" name="gioitinh">Nữ
+            </p>
+            <p class="top">Ngành thi: <br>
+            <input type="radio" value="1" name="nganh" checked>Công nghệ thông tin <br>
+            <input type="radio" name="nganh" value="0">Mầm non <br>
+            <input type="radio" name="nganh" value="0">Âm nhạc <br>
+            </p>
+            <div class="top">
+                <input type="button" class="mybutton" value="Đồng ý">
+                <input type="button" class="mybutton" value="Không đồng ý">
+            </div>
+        </form>
+    </div>
+</body>
+</html>
