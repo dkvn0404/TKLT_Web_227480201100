@@ -1,0 +1,23 @@
+body{
+    padding: 10px;
+    border: 3px solid black;
+}
+h2 {
+    color: red;
+    text-align: center;
+}
+.doan1 {
+    font-size: 14px;
+    font-style: italic;
+    color: white;
+    background-color: blue;
+}
+p {
+    margin: 0 0 0 0;
+}
+.doan2 {
+    font-size: 14px;
+    font-style: italic;
+    color: yellow;
+    background-color: brown;
+}

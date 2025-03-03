@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: lightyellow;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+    color: darkred;
+  }
+  
+    h2 {
+        color: purple;
+        font-style: verdana;
+    }
+  
+
+  p{
+    color: green;
+    font-style: verdana;
+  }
+  
+  ul {
+    list-style-type: square;
+    margin-left: 20px;
+  }
+  
+  ul li {
+    margin: 5px 0;
+    font-size: 14pt;
+  }
+  ul li::marker{
+    color: blue;
+    font-style: times new roman;
+  }
+  
+  p {
+    font-size: 14pt;
+  }
+  

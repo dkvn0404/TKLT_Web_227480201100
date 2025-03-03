@@ -1,0 +1,19 @@
+h1 {
+    color: blue;
+    text-align: center;
+}
+
+ol, p {
+    font-size: 14px;
+    color: black;
+}
+li{
+    font-weight: bold;
+    margin: 15px;
+}
+
+.content-box {
+    border: 3px solid black;
+    background-color: pink;
+    padding: 20px;
+}

@@ -1,0 +1,38 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
+    font-weight: bold;
+    background-color: white;
+  }
+  
+  h2 {
+    text-align: center;
+    color: black;
+  }
+  
+  table {
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    border: 1px solid black;
+    text-align: center;
+    padding: 8px;
+  }
+  
+  th {
+    background-color: lightskyblue;
+    color: black;
+  }
+  
+  td {
+    background-color: white;
+  }
+  
+  .highlight td:first-child {
+    background-color: lightslategray;
+    color: black;
+  }
+  
