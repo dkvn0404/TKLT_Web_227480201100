@@ -1,0 +1,44 @@
+h1{
+    font-family: Verdana, sans-serif;
+    color: red;
+    text-align: center;
+    font-size: 25px;
+}
+h3{
+    font-family: tahoma, sans-serif;
+    font-size: 20px;
+    color: blue;
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    margin: 0 0 0 0;
+  
+}
+li{
+    font-size: 13px;
+}
+
+.nam1{
+    font-family: verdana;
+    color: black;
+    font-size: 13px;
+
+}
+.nam2{
+    font-family: tahoma;
+    color: black;
+    font-size: 13px;
+
+}
+.nam3{
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    font-size: 13px;
+
+}
+.cuoinam{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color: red;
+}

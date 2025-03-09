@@ -1,0 +1,16 @@
+.container { display: flex; }
+.menu {
+    display: flex; flex-direction: column;
+    border: 3px solid black; 
+    width: 345px; 
+    height: 220px;
+    padding: 20px 0 0 10px; background: grey;
+}
+.intro {
+    padding: 10px; 
+    border: 3px solid black; 
+    background: lightskyblue; }
+a {
+    margin-top: 10px;
+    color: white;
+}
