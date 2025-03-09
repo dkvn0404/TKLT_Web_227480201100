@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Tính tuổi</title>
+    </head>
+    <body>
+        <script>
+            var D = new Date();
+            var NamSinh, NamHienTai;
+            NamHienTai = D.getFullYear();
+            do {
+                NamSinh = prompt("Bạn sinh năm bao nhiêu:", "");
+            } while (parseInt(NamSinh) > NamHienTai);
+            alert("Tuổi của bạn bây giờ là: " + (NamHienTai - NamSinh));
+        </script>
+    </body>
+</html>

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Bai 3B</title>
+    </head>
+    <body>
+        <script>        
+            document.write("<h2> Tao button và cửa sổ thông báo bằng JavaScript </h2><br>");
+            document.write("<br>");
+            function thongbao(txt){
+                alert(txt);
+                document.getElementById("msg03").value ="Hello all!";
+            }
+        </script>
+        <form>
+            <input type="text" id="msg03" value="Hello Everybody" size="20">
+            <input type="button" name="Welcome" value="Hello" onclick="thongbao('Hi all!')">
+        </form>        
+    </body>
+</html>

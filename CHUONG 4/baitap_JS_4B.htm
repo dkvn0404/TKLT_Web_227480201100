@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Bai 4B</title>
+    </head>
+    <body>
+        <script>
+            function cthoten() {
+                alert(document.getElementById('txthoten').value);
+            }
+
+            function ctdonvi() {
+                alert(document.getElementById('txtdonvi').value);
+            }
+        </script>
+        <form>
+            <input type="text" id="txthoten" value="Chào">
+            <input type="text" id="txtdonvi" value="Đơn vị">
+            <input type="button" name="hoten" value="Họ tên" onclick="cthoten()">
+            <input type="button" name="donvi" value="Đơn vị" onclick="ctdonvi()">
+        </form>        
+    </body>
+</html>

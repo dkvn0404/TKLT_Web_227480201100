@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Bài 9B</title>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <script>
+            var SoLuong;
+            var DS = new Array(100); 
+            SoLuong = prompt("Bạn cần nhập bao nhiêu thiết bị: ", 5);
+            for (i = 0; i < SoLuong; i++)
+            {
+                DS[i] = prompt("Nhập vào tên thiết bị: ", "");
+            }
+            var filteredDS = DS.filter(function(tenThietBi) {
+                return tenThietBi.includes("Computer");
+            });
+            filteredDS.sort();
+            document.write("<h1>Danh sách các thiết bị có tên chứa 'Computer' là:</h1>");
+            document.write("<table border='1'>");
+            document.write("<tr><th>Tên thiết bị</th></tr>");
+            for (i = 0; i < filteredDS.length; i++) 
+            {
+                document.write("<tr><td>" + filteredDS[i] + "</td></tr>"); 
+            }
+            document.write("</table>");
+        </script>
+    </body>
+</html>

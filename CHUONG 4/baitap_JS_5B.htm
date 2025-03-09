@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Bai 5B</title>
+    </head>
+    <body>
+        <script>
+            function hienThiNgayThangNam() {
+                var today = new Date();
+                var ngay = today.getDate();
+                var thang = today.getMonth() + 1;
+                var nam = today.getFullYear();
+                document.getElementById("ngayThangNam").innerHTML = "Ngày: " + ngay + ", Tháng: " + thang + ", Năm: " + nam;
+            }
+        </script>
+        <form>
+            <input type="button" name="hienThi" value="Hiển thị ngày, tháng, năm" onclick="hienThiNgayThangNam()">
+        </form>
+        <div id="ngayThangNam"></div>       
+    </body>
+</html>
