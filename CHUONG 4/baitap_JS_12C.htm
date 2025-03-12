@@ -8,6 +8,7 @@
         <h1>Hiển thị họ và tên</h1>
         <INPUT type="text" name="Ho" placeholder="Họ" ><br>
         <INPUT type="text" name="Ten" placeholder="Tên" ><br>
+        <INPUT type="text" name="Hoten" value="Họ và tên" ><br>
         <INPUT type="button" name="HienThi" value="Hiển thị" onClick="hienThiHoTen();">
 
         <script>
@@ -15,7 +16,7 @@
                 var ho = document.getElementsByName('Ho')[0].value;
                 var ten = document.getElementsByName('Ten')[0].value;
                 var hoTen = ho + ' ' + ten;
-                alert('Họ và tên: ' + hoTen);
+                document.getElementsByName('Hoten')[0].value = hoTen;
             }
         </script>
     </body>
